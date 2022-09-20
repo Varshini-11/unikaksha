@@ -1,0 +1,25 @@
+#Swap two numbers without using  third variable:
+a=int(input())
+b=int(input())
+a,b=b,a
+print(a)
+print(b)
+
+#Grading system:
+marks=int(input())
+if marks==100:
+    print("s")
+elif marks >=90 and marks<100:
+    print("a")
+elif marks>=80 and marks<90:
+    print("b")
+elif marks>=70 and marks<80:
+    print("c")
+elif marks>=60 and marks<70:
+    print("d")
+elif marks>=50 and marks<60:
+    print("e")
+elif marks>100:
+    print("invalid input")
+else:
+    print("f")
